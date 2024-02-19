@@ -50,8 +50,8 @@ public class PlaceOrderTest {
 //  }
   
   @Test(priority=3)
-  public void checkoutPageTest() {
-	  chkoutPage.checkMethodTest(driver);
-	  chkoutPage.BuyButton();
+  public void checkOutPageTest() {
+	  chkoutPage.checkHeading();
+	  chkoutPage.buyItems();
   }
 }
